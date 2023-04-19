@@ -1,5 +1,5 @@
-const controllers = <any>[];
+import { Person } from "./person/Person";
 
-export {
-    controllers,
-}
+const controllers = <any>[Person];
+
+export { controllers };
